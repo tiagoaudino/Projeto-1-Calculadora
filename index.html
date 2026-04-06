@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+ <div class="calculator">
+    <input type="text" disabled id="display">
+    <div class="buttons">
+    <button class="btn-colors" onclick="clean()">AC</button>
+    <button class="btn-colors" onclick="back()">></button>
+    <button class= "btn-colors" onclick="insertToDisplay('.')">.</button>
+    <button class= "btn-colors" onclick="insertToDisplay('+')">+</button>
+    <button class= "btn numbers" onclick="insertToDisplay('7')">7</button>
+    <button class= "btn numbers" onclick="insertToDisplay('8')">8</button>
+    <button class= "btn numbers" onclick="insertToDisplay('9')">9</button>
+    <button class= "btn-colors" onclick="insertToDisplay('-')">-</button>
+    <button class= "btn numbers" onclick="insertToDisplay('4')">4</button>
+    <button class= "btn numbers" onclick="insertToDisplay('5')">5</button>
+    <button class= "btn numbers" onclick="insertToDisplay('6')">6</button>
+    <button class= "btn-colors" onclick="insertToDisplay('*')">X</button>
+    <button class= "btn numbers" onclick="insertToDisplay('1')">1</button>
+    <button class= "btn numbers" onclick="insertToDisplay('2')">2</button>
+    <button class= "btn numbers" onclick="insertToDisplay('3')">3</button>
+    <button class="btn-zero" onclick="insertToDisplay('0')">0</button>
+    <button class="btn-result" onclick="result()">=</button>
+    <button class="btn-divis" onclick="insertToDisplay('/')">÷</button>
+    </div>
+ </div>
+ <script src="app.js"></script>
+</body>
+</html>
